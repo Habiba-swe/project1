@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle navbar-dark fixed-top  opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary-emphasis" href="Palestine">
+            <img src="images/images.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            <span class="ms-2">Palestine |</span> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis" aria-current="page" href="javascript:void(0)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary-emphasis" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-primary-emphasis" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-primary-emphasis" href="#">Safad</a></li>
+                  <li><a class="dropdown-item text-primary-emphasis" href="#">Aka</a></li>
+                  <li><a class="dropdown-item text-primary-emphasis " href="#">Gaza</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-primary-emphasis" href="#">Haifa</a></li>
+                  <li><a class="dropdown-item text-primary-emphasis" href="#">Ginin</a></li>
+                  <li><a class="dropdown-item text-primary-emphasis"href="#">Alquds</a></li>
+                  <li><a class="dropdown-item text-primary-emphasis" href="#">Yafa</a></li>
+                  <li><a class="dropdown-item text-primary-emphasis" href="#">More...</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary-emphasis" href="javascript:void(0)">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-primary text-primary-emphasis" type="button">Search</button>
+              <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+              </button>
+              
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bg-dark-subtle">
+                    <div class="modal-header bg-secondary-subtle">
+                      <h5 class="modal-title text-primary-emphasis" id="exampleModalLabel">Login!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                          <label class="form-check-label" for="mySwitch">Remember me </label>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </form>
+         </div>
+     </div>
+ </nav>
+
+
+  <!-- قائمة الأيقونات -->
+  <div class="floating-icons">
+    <a href="#" class="rounded-circle"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="rounded-circle"><i class="fab fa-whatsapp"></i></a>
+    <a href="#" class="rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#" class="rounded-circle"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="rounded-circle"><i class="fab fa-facebook-f"></i></a>
+  </div>
+
+
+ 
+ <div class="container-fluid-expand-lg">
+ <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="10000">
+       <div class="rowg-0">
+        <div class="col-md-12">
+          <img src="images/128871-WhatsApp-Image-2023-03-29-at-10.26.24-AM.jpeg" class="d-block w-100 mx-auto object-fit-cover" alt="..." style="object-fit: cover; height: 500px;">
+        </div>
+         <div class="col-md-6 d-flex align-items-center justify-content-center">
+           <div class="carousel-caption d-md-block d-sm-flex justify-content-center align-items-center text-center bg-secondary rounded-2 pb-3 bg-opacity-50">
+            <h5> Welcome to Gaza</h5>
+            <p>We had such a great time in Palestine</p>
+            <button class="btn rounded-2 btn-secondary text-primary-emphasis"> Visit us</button>
+            </div>
+        </div>  
+       </div>
+      </div>
+
+       <div class="carousel-item" data-bs-interval="2000">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <img src="images/المسجد-5.jpg" class="d-block w-100 object-fit-cover" alt="..." style="object-fit: cover; height: 500px;">
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="carousel-caption  d-md-block d-sm-flex justify-content-center align-items-center text-center  bg-secondary rounded-2 pb-3 bg-opacity-50">
+              <h5>Welcome to Safad</h5>
+              <p>We had such a great time in Palestine</p>
+              <button class="btn rounded-2 btn-secondary text-primary-emphasis">Visit us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <img src="images/حيفا-1.jpeg" class="d-block w-100 object-fit-cover" alt="..." style="object-fit: cover; height: 500px;">
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="carousel-caption  d-md-block d-sm-flex justify-content-center align-items-center text-center bg-secondary rounded-2 pb-3 bg-opacity-50">
+              <h5>Welcome to Haifa</h5>
+              <p>We had such a great time in Palestine</p>
+              <button class="btn rounded-2 btn-secondary text-primary-emphasis">Visit us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <img src="images/e7bc80574450b8d013435c6c2f2f539b.jpg" class="d-block w-100 object-fit-cover" alt="..." style="object-fit: cover; height: 500px;">
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div class="carousel-caption d-md-block d-sm-flex justify-content-center align-items-center text-center bg-secondary rounded-2 pb-3 bg-opacity-50">
+              <h5>Welcome to ELquds</h5>
+              <p>We had such a great time in Palestine</p>
+              <button class="btn rounded-2 btn-secondary text-primary-emphasis">Visit us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ </div> 
+
+
+
+ <div class="container-fluid-expand-lg">  
+  <div class=" p-5 bg-secondary-subtle text-primary-emphasis rounded">
+  <h1 class="pb-3 text-welcome">Welcome</h1>
+  <p class="text-dark-emphasis">Have you ever visited Palestine before? We are happy to take you to the most beautiful landmarks and areas of this charming land and we will meet all your needs. If you would like to know more, click here..</p>
+  <button class="btn btn-primary p-2 " type="button">Learn More !</button>
+</div>
+
+
+<hr>
+
+<div class=" px-5 mt-3 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+  <h1 class="p-3">Popular destinations in palastin</h1>
+</div>
+
+<div class="accordion accordion-flush mt-4 shadow" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed text-primary-emphasis bg-secondary-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Gaza City
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-primary bg-light border-2 shadow">
+        Gaza City is one of the most vibrant cities in Palestine, known for its rich history and culture.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed text-primary-emphasis " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Safad City
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-primary bg-light">
+        Safad City offers stunning mountain views and a rich cultural heritage to explore.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed text-primary-emphasis bg-secondary-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Hifa City
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-primary bg-light">
+        Hifa City is a coastal paradise, known for its scenic beaches and historical landmarks.
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+
+    <div class="container-fluid px-4 mt-4 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+            <h1 class="py-3">Translate From Arabic to English</h1>
+
+          <div class="bg-secondary-subtle text-primary-emphasis py-4 px-3 ">
+          <div class=" mb-3">
+            <label for="exampleFormControlInput1" class="form-label d-block text-start">Write and translate
+              <span class="text-primary fw-bold">Press here</span>:
+            </label>
+            <button type="button" class="btn btn-primary mt-2 d-block" id="popoverButton" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="copied!">
+                COPY!
+              </button>
+                  <!-- Modal -->
+    <div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Copied message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="text-center">message has been copied ..</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+          </div>
+          <div> 
+            <textarea class="form-control mb-3 " rows="5" id="comment" name="text" placeholder="Translate"></textarea>
+          </div>
+      </div>
+    </div>
+    
+    <hr>
+
+    <div class="container-fluid px-4 mt-4 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+      <h1 class="py-3">Translate From Arabic to Frensh</h1>
+      <div class="bg-secondary-subtle text-primary-emphasis py-4 px-3 ">
+        <div class=" mb-3">
+          <label for="exampleFormControlInput1" class="form-label d-block text-start">Write and translate
+            <span class="text-primary fw-bold">Press here</span>:
+          </label>
+          <button type="button" class="btn btn-primary mt-2 d-block" id="popoverButton_1" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="copied!">
+              COPY!
+            </button>
+                <!-- Modal -->
+  <div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Copied message</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <h5 class="text-center">message has been copied ..</h5>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+        </div>
+        <div> 
+          <textarea class="form-control mb-3 " rows="5" id="comment" name="text" placeholder="Translate"></textarea>
+        </div>
+    </div>
+  </div>
+
+<hr>
+
+<div class="container-fluid px-4 mt-4 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+  <h1 class="py-3">Translate From Arabic to German </h1>
+
+  <div class="bg-secondary-subtle text-primary-emphasis py-4 px-3 ">
+    <div class=" mb-3">
+      <label for="exampleFormControlInput1" class="form-label d-block text-start">Write and translate
+        <span class="text-primary fw-bold">Press here</span>:
+      </label>
+      <button type="button" class="btn btn-primary mt-2 d-block" id="popoverButton_2" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="copied!">
+          COPY!
+        </button>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Copied message</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <h5 class="text-center">message has been copied ..</h5>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+              
+          </div>
+      </div>
+  </div>
+</div>
+    </div>
+    <div> 
+      <textarea class="form-control mb-3 " rows="5" id="comment" name="text" placeholder="Translate"></textarea>
+    </div>
+</div>
+</div>
+
+
+
+<hr>
+
+
+<div class="pic1"></div>
+
+<hr>
+
+
+<div class=" px-2 mt-3 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+    <h1 class="p-3">POPULER DESTINATION IN Palestine</h1>
+
+    <div class="container my-4">
+      <div class="row g-4"> <!-- 'g-4' لتحديد المسافة بين الأعمدة -->
+        <!-- Card 1: Tiberias -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/R.jpg" class="card-img-top" alt="Tiberias" style="height: 400px;; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Tiberias</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Experience the unique charm of Tparya, a serene paradise by the water, where stunning landscapes meet rich history and vibrant culture, offering unforgettable moments in the heart of Palestine.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2: Al-Quds -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/139555c42a9de1478075dcdb21ed0b3f.jpg" class="card-img-top" alt="Al-Quds" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Al-Quds</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Discover the timeless beauty and spiritual heart of Al-Quds, where ancient history, sacred sites, and vibrant culture come together to offer an unforgettable journey through one of the world's most revered cities.</p>
+            </div>
+          </div>
+        </div>
+
+          <!-- Card 3: haifa -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465410320_594598989756224_780088300712609936_n.jpg" class="card-img-top" alt="Haifa" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Haifa</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Discover the charm of Haifa, where stunning views of the Mediterranean Sea meet a rich cultural heritage, offering an unforgettable blend of history, modernity, and natural beauty in the heart of Palestine.</p>
+            </div>
+          </div>
+        </div>
+
+            <!-- Card 4: haifa -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465411597_594599613089495_6064715064928982023_n.jpg" class="card-img-top" alt="Aka" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Aka</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Enter the ancient streets of Aka, where history comes to life through its well-preserved walls, stunning landmarks, and vibrant culture, offering an unforgettable journey through one of Palestine's oldest cities.</p>
+            </div>
+          </div>
+        </div>
+
+             <!-- Card 5: gaza -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465612218_594598909756232_352973542435592439_n.jpg" class="card-img-top" alt="Gaza" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Gaza</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Explore the resilient spirit of Gaza, where ancient history meets modern-day determination, offering a unique blend of culture, history, and stunning landscapes in the heart of Palestine.</p>
+            </div>
+          </div>
+        </div>
+
+             <!-- Card 6: yafa -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465380948_594599709756152_2065095540138401247_n.jpg" class="card-img-top" alt="yafa" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Yafa</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Discover the enchanting beauty of Jaffa, where ancient port history blends with vibrant art scenes and stunning views, offering a unique experience in one of Palestine's most captivating cities.</p>
+            </div>
+          </div>
+        </div>
+
+           <!-- Card 7: safad -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465405015_594599796422810_29455141176068836_n.jpg" class="card-img-top" alt="safad" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Safad</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Explore the historic charm of Safed, a city perched on the hills, where ancient Palestinian heritage blends with stunning mountain views and traditional art, offering a unique cultural experience in the heart of Palestine.</p>
+            </div>
+          </div>
+        </div>
+
+             <!-- Card 8: nablus -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465566526_594598953089561_8200369671470463842_n.jpg" class="card-img-top" alt="Nablus" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Nablus</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Discover the vibrant heart of Nablus, a city rich in history, where ancient olive groves, traditional markets, and a rich cultural heritage create an exciting journey through one of Palestine’s oldest cities.</p>
+            </div>
+          </div>
+        </div>
+
+           <!-- Card 9: Nazareth-->
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <img src="images/465746116_594599543089502_2826286817276222018_n.jpg" class="card-img-top" alt="Nazareth" style="height: 400px; object-fit: cover; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="card-title" style="font-size: 1.6rem; font-weight: bold; color: #2C3E50;">Nazareth</h5>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+              <p class="card-text" style="font-size: 1rem; color: #1013c5; line-height: 1.6;">Explore the spiritual and historical richness of Nazareth, where sacred sites, vibrant markets, and beautiful landscapes come together to offer a unique glimpse into the heart of Palestine.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<hr>  
+
+
+<div class="pic2"></div>
+
+<hr>
+
+
+<div class=" px-5 mt-3 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+  <h1 class="p-3">Thanks for</h1>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-sm-12">
+        <div class="custom-card">
+          <img src="images/images (3).jpg" alt="Image 1" class="card-img">
+          <div class="overlay">
+            <h3 class="card-title">All Thanks and appreciation</h3>
+            <div class="card-footer">
+              <img src="images/images (5).jpg" alt="Avatar" class="avatar">
+              <div class="card-text-group">
+                <p class="card-text">Eng/Ali Khaled</p>
+                <p class="card-text-secondary">Director of UI/UX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-sm-12">
+        <div class="custom-card">
+          <img src="images/download (3).jpg" alt="Image 2" class="card-img">
+          <div class="overlay">
+            <h3 class="card-title">All Thanks and appreciation</h3>
+            <div class="card-footer">
+              <img src="images/download (1).png" alt="Avatar" class="avatar">
+              <div class="card-text-group">
+                <p class="card-text">Eng/Omar Khaled</p>
+                <p class="card-text-secondary">Director of UI/UX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-sm-12">
+        <div class="custom-card">
+          <img src="images/download.png" alt="Image 3" class="card-img">
+          <div class="overlay">
+            <h3 class="card-title">All Thanks and appreciation</h3>
+            <div class="card-footer">
+              <img src="images/images (4).jpg" alt="Avatar" class="avatar">
+              <div class="card-text-group">
+                <p class="card-text">Eng/Habiba Khaled</p>
+                <p class="card-text-secondary">Director of UI/UX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+
+
+
+<div class=" px-5 mt-3 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+  <h1 class="p-3">Palestine News</h1>
+  </div>
+
+  <div class="container mt-5">
+    <!-- Card 1 -->
+    <div class="card mb-4">
+      <div class="row g-4 align-items-center">
+        <!-- النص -->
+        <div class="col-lg-8 col-sm-12 order-lg-1 order-2">
+          <div class="card-body p-4">
+            <h2 class="card-title text-secondary-emphasis">Podcast Title 3</h2>
+            <i class="fa-solid fa-calendar-days"></i>
+            <span class="span"> Wed, Nov 6th 2024</span>
+            <hr class="bg-danger">
+            <p class="card-text mt-3 mb-4 text-primary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi repudiandae voluptates.</p>
+            <div>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-tag"> podcast</i></button>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-clock"> 50 mins</i></button>
+              <button class="btn btn-dark-subtle border-0"><i class="fa-solid fa-play"> play </i></button>
+            </div>
+          </div>
+        </div>
+        <!-- الصورة -->
+        <div class="col-lg-4 col-sm-12 order-lg-2 order-1 p-0">
+          <div class="p1">
+            <div class="cardnews2"><img src="images/عدد_مدن_فلسطين.jpg" style ="clip-path: polygon(26% 0, 100% 0%, 100% 100%, 0 100%);" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="card mb-4">
+      <div class="row g-4 align-items-center">
+        <!-- الصورة -->
+        <div class="col-lg-4 col-sm-12 order-lg-1 order-1 p-0">
+          <div class="p1">
+            <div class="cardnews2" ><img src="images/2024-01-07_07-35-14_800074.jpg" style="clip-path: polygon(0 0, 64% 0, 100% 100%, 0 100%);" alt=""></div>
+          </div>
+        </div>
+        <!-- النص -->
+        <div class="col-lg-8 col-sm-12 order-lg-2 order-2">
+          <div class="card-body p-4">
+            <h2 class="card-title text-secondary-emphasis">Podcast Title 2</h2>
+            <i class="fa-solid fa-calendar-days"></i>
+            <span class="span"> Tue, Nov 5th 2024</span>
+            <hr class="bg-danger">
+            <p class="card-text mt-3 mb-4 text-primary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi repudiandae voluptates.</p>
+            <div>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-tag"> podcast</i></button>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-clock"> 50 mins</i></button>
+              <button class="btn btn-dark-subtle border-0"><i class="fa-solid fa-play"> play </i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Card 3 -->
+    <div class="card mb-4">
+      <div class="row g-4 align-items-center">
+        <!-- النص -->
+        <div class="col-lg-8 col-sm-12 order-lg-1 order-2">
+          <div class="card-body p-4">
+            <h2 class="card-title text-secondary-emphasis">Podcast Title 3</h2>
+            <i class="fa-solid fa-calendar-days"></i>
+            <span class="span"> Wed, Nov 6th 2024</span>
+            <hr class="bg-danger">
+            <p class="card-text mt-3 mb-4 text-primary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi repudiandae voluptates.</p>
+            <div>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-tag"> podcast</i></button>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-clock"> 50 mins</i></button>
+              <button class="btn btn-dark-subtle border-0"><i class="fa-solid fa-play"> play </i></button>
+            </div>
+          </div>
+        </div>
+        <!-- الصورة -->
+        <div class="col-lg-4 col-sm-12 order-lg-2 order-1 p-0">
+          <div class="p1">
+            <div class="cardnews2"><img src="images/عدد_مدن_فلسطين.jpg" style ="clip-path: polygon(26% 0, 100% 0%, 100% 100%, 0 100%);" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="card mb-4">
+      <div class="row g-4 align-items-center">
+        <!-- الصورة -->
+        <div class="col-lg-4 col-sm-12 order-lg-1 order-1 p-0">
+          <div class="p1">
+            <div class="cardnews2" ><img src="images/2024-01-07_07-35-14_800074.jpg" style="clip-path: polygon(0 0, 64% 0, 100% 100%, 0 100%);" alt=""></div>
+          </div>
+        </div>
+        <!-- النص -->
+        <div class="col-lg-8 col-sm-12 order-lg-2 order-2">
+          <div class="card-body p-4">
+            <h2 class="card-title text-secondary-emphasis">Podcast Title 4</h2>
+            <i class="fa-solid fa-calendar-days"></i>
+            <span class="span"> Thu, Nov 7th 2024</span>
+            <hr class="bg-danger">
+            <p class="card-text mt-3 mb-4 text-primary-emphasis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi repudiandae voluptates.</p>
+            <div>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-tag"> podcast</i></button>
+              <button class="btn btn-dark-subtle border-0 me-2"><i class="fa-solid fa-clock"> 50 mins </i></button>
+              <button class="btn btn-dark-subtle border-0"><i class="fa-solid fa-play"> play</i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<hr>
+
+<div class=" px-5 mt-3 bg-dark-subtle text-primary-emphasis text-center rounded-3 ">
+  <h1 class="p-3">JOIN US</h1>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row g-4">
+        <!-- Card 1 - Twitter -->
+        <div class="col-md-3 col-12">
+            <div class="icon-box">
+                <i class="bi bi-twitter"></i> <!-- أيقونة تويتر -->
+                <h5>Twitter</h5>
+            </div>
+        </div>
+
+        <!-- Card 2 - WhatsApp -->
+        <div class="col-md-3 col-12">
+            <div class="icon-box">
+                <i class="bi bi-whatsapp"></i> <!-- أيقونة واتساب -->
+                <h5>WhatsApp</h5>
+            </div>
+        </div>
+
+        <!-- Card 3 - LinkedIn -->
+        <div class="col-md-3 col-12">
+            <div class="icon-box">
+                <i class="bi bi-linkedin"></i> <!-- أيقونة لينكدإن -->
+                <h5>LinkedIn</h5>
+            </div>
+        </div>
+
+        <!-- Card 4 - Instagram -->
+        <div class="col-md-3 col-12">
+            <div class="icon-box">
+                <i class="bi bi-instagram"></i> <!-- أيقونة إنستاجرام -->
+                <h5>Instagram</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<!-- الفوتر -->
+<footer class="footer bg-secondary-subtle p-5 m-auto col-sm-12 text-primary-emphasis">
+  <div class="container p-5">
+    <div class="row text-start">
+      <!-- العمود الأول -->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <img src="images/images.jpg" alt="Logo 1" class="footer-logo rounded-circle fs-5">
+          <h3 class="v fs-2 mx-3">VISION</h3>
+        </div>
+        <ul class="px-5 ms-3">
+          <li><a href="#" class="text-dark ">About Us</a></li>
+          <li><a href="#" class="text-dark">Services</a></li>
+          <li><a href="#" class="text-dark " >Contact</a></li>
+        </ul>
+      </div>
+      <!-- العمود الثاني -->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <img src="images/images.jpg" alt="Logo 2" class="footer-logo rounded-circle fs-5">
+          <h3 class="v fs-2 mx-3">GOOD Company</h3>
+        </div>
+        <ul class=" px-5 ms-5">
+          <li><a href="#" class="text-dark ">Portfolio</a></li>
+          <li><a href="#" class="text-dark ">Careers</a></li>
+          <li><a href="#" class="text-dark ">Support</a></li>
+        </ul>
+      </div>
+      <!-- العمود الثالث -->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="d-flex align-items-center mb-3">
+          <img src="images/images.jpg" alt="Logo 3" class="footer-logo rounded-circle fs-5">
+          <h3 class="v fs-2 mx-3">Important Links</h3>
+        </div>
+        <ul class=" px-5 ms-5">
+          <li><a href="#" class="text-dark ">FAQs</a></li>
+          <li><a href="#" class="text-dark ">Privacy Policy</a></li>
+          <li><a href="#" class="text-dark ">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- خط فاصل -->
+    <hr>
+
+    <!-- جملة الكوبي رايت -->
+    <p class="copyright text-primary-emphasis fs-5 p-2 col-sm-12">&copy; 2024 All Rights Reserved. Designed by Habiba Khaled Ali.</p>
+  </div>
+</footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
